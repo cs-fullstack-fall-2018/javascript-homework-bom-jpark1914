@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--First Part Divs-->
+<div id="wxh"></div>
+<div id="awxh"></div>
+<div id="color"></div>
+<div id="pixel"></div>
+
+<!--Second Part Divs-->
+<div id="port"></div>
+<div id="fullUrl"></div>
+<div id="path"></div>
+<div id="protocol"></div>
+
+
+
+<!--===JavaScript Code Here===--->
+<script>
+ // Part 1
+document.getElementById("wxh").innerHTML = "Screen width is: " + screen.width + " and height is: " + screen.height;
+document.getElementById("awxh").innerHTML = "The available screen width is: " + screen.availWidth + " and available height is: " + screen.availHeight;
+document.getElementById("color").innerHTML = "Screen color depth is: " + screen.colorDepth;
+document.getElementById("pixel").innerHTML = "The screen pixel depth is: " + screen.pixelDepth;
+
+// Part 2
+document.getElementById("port").innerHTML = "Page hostname is: " + window.location.hostname;
+document.getElementById("fullUrl").innerHTML = "The full URL is: " + window.location.href;
+document.getElementById("path").innerHTML = "The path name is: " + window.location.pathname;
+document.getElementById("protocol").innerHTML = "The protocol is: " + window.location.protocol;
+
+
+</script>
+</body>
+</html>
